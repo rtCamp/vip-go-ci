@@ -6,6 +6,8 @@
 
 define( 'VIPGOCI_CLIENT_ID', 'automattic-vip-go-ci' );
 define( 'VIPGOCI_SYNTAX_ERROR_STR', 'PHP Syntax Errors Found' );
+define( 'VIPGOCI_GITHUB_ERROR_STR', 'GitHub API communication error');
+define( 'VIPGOCI_GITHUB_BASE_URL',  'https://api.github.com' );
 
 /*
  * This function works both to collect headers
